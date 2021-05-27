@@ -29,12 +29,22 @@ header div img {
     border: none;
     border-radius: 25px;
     box-shadow: -0.5px 1px 6px rgb(200, 200, 200);
-    padding-right: 50px;
+    padding-right: 90px;
     padding-left: 20px;
     font-size: 1rem;
 }
 
-#div1 {
+#searchbar-icons {
+    position: relative;
+    right: 16%;
+}
+
+#pipe {
+    height: 25px;
+    border-left: solid lightgray 1px;
+}
+
+#header-top {
     display: flex;
     justify-content: space-between;
     margin: 0 40px;
