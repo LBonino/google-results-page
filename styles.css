@@ -18,25 +18,35 @@ header div {
     align-items: center;
 }
 
-header div img {
+#header-top-left {
+    position: relative;
+    left: -62px;
+    bottom: -13px;
+}
+
+#header-top-left img {
     transform: scale(0.5);    
 }
 
 #searchbar {
-    width: 690px;
-    height: 42px;
+    width: 580px;
+    height: 43px;
     outline: none;
     border: none;
     border-radius: 25px;
-    box-shadow: -0.5px 1px 6px rgb(200, 200, 200);
+    box-shadow: -0.5px 1px 5px rgb(200, 200, 200);
     padding-right: 90px;
     padding-left: 20px;
     font-size: 1rem;
 }
 
+#searchbar:hover {
+    box-shadow: -0.5px 1px 11px rgb(200, 200, 200);
+}
+
 #searchbar-icons {
     position: relative;
-    right: 16%;
+    right: 17.5%;
 }
 
 #searchbar-icons:hover {
