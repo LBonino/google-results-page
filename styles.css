@@ -7,9 +7,9 @@ header {
     left: 0;
     width: 100%;
     height: 125px;
+    border-bottom: 1px solid lightgray;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid lightgray;
     justify-content: space-between;
 }
 
@@ -37,6 +37,10 @@ header div img {
 #searchbar-icons {
     position: relative;
     right: 16%;
+}
+
+#searchbar-icons:hover {
+    cursor: pointer;
 }
 
 #pipe {
