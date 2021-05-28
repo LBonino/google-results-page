@@ -14,7 +14,7 @@ header {
     font-family: 'Roboto', Arial;
 }
 
-header a {
+a {
     text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ header div {
     margin: 0 40px;
 }
 
-nav ul {
+ul {
     display: flex;
     list-style: none;
 }
@@ -114,7 +114,7 @@ nav ul {
     position: relative;
     left: 132px;
     bottom: -8px;
-    width: 700px;
+    width: 710px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -166,4 +166,70 @@ nav ul {
 #header-bottom-right {
     position: relative;
     bottom: 3px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100vw;
+    height: 106px;
+    background-color: rgb(242, 242, 242);
+    color: #777;
+    font-family: Arial;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer div {
+    position: relative;
+    left: 165px;
+    height: 45px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 12px;
+}
+
+#footer-bottom ul {
+    justify-content: space-between;
+    width: 290px;
+}
+
+footer a {
+    color: #777;
+}
+
+footer a:hover {
+    color: #333;
+}
+
+#pipe-footer {
+    display: inline-block;
+    height: 22px;
+    border-left: 1px solid #ccc;
+    margin: 0 16px;
+}   
+
+#location {
+    color: #444;
+    font-weight: bold;
+}
+
+#bullet {
+    display: inline-block;
+    transform: scale(2.4);
+    color: #777;
+    margin-right: 7px;
+}
+
+#separator {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
 }
