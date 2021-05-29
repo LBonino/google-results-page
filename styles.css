@@ -2,8 +2,13 @@ html {
     font-size: 16px;
 }
 
+body {
+    margin: 0;
+    height: 98.2vh;
+}
+
 header {
-    position: absolute;
+    position: relative;
     left: 0;
     width: 100vw;
     height: 125px;
@@ -181,9 +186,9 @@ ul {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0px;
+    position: sticky;
+    left: -10px;
+    top: 100%;
     width: 100vw;
     height: 106px;
     background-color: rgb(242, 242, 242);
@@ -243,4 +248,10 @@ footer a:hover {
     display: block;
     width: 100%;
     border-bottom: 1px solid #ddd;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
