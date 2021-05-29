@@ -253,5 +253,60 @@ footer a:hover {
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 188px;
+    width: 610px;
+}
+
+#results-stats {
+    font-family: Arial;
+    font-size: 0.87rem;
+    color: #777;
+}
+
+.result {
+    font-family: Arial;
+    margin-bottom: 22px;
+    margin-top: 8px;
+}
+
+.result-anchor {
+    display: flex;
+    flex-direction: column; 
+}
+
+.result-anchor {
+    font-size: 0.9rem;
+}
+
+cite {
+    color: #333;
+    font-style: normal;
+}
+
+.result-link-right {
+    color: #666;
+}
+
+.result-anchor h1 {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: rgb(32, 13, 171);
+}
+
+.result-anchor h1:hover {
+    text-decoration: underline;
+}
+
+.result-relevant-content {
+    margin: 0;
+    font-size: 0.87rem;
+    color: #555;
+    line-height: 160%;
+}
+
+.result-relevant-content strong {
+    color: #666;
 }
